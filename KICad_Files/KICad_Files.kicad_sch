@@ -6503,6 +6503,66 @@
 		(uuid "fef47a5e-e999-430e-abf2-c208dbd6edcf")
 	)
 	(rectangle
+		(start 109.22 157.48)
+		(end 165.1 194.31)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 03df74f2-b305-408e-8171-11d034015677)
+	)
+	(rectangle
+		(start 227.33 73.66)
+		(end 284.48 113.03)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3c5372cb-a93c-4165-a332-8fae15cea157)
+	)
+	(rectangle
+		(start 194.31 63.5)
+		(end 224.79 87.63)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4d41a9a3-0174-4623-8e3a-372a60c60bae)
+	)
+	(rectangle
+		(start 214.63 123.19)
+		(end 281.94 157.48)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ad75e530-d43e-4bf8-8ac9-e60f1dc44863)
+	)
+	(rectangle
+		(start 19.05 98.298)
+		(end 90.17 186.69)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c00ca17e-2d8b-4e0e-b42c-31e91f508faa)
+	)
+	(rectangle
 		(start 20.32 19.05)
 		(end 77.47 62.23)
 		(stroke
@@ -6525,6 +6585,76 @@
 			(type none)
 		)
 		(uuid e2f221d6-bf8c-4b25-925c-79be224d1a3b)
+	)
+	(text "Antenna"
+		(exclude_from_sim no)
+		(at 108.966 155.956 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "0fcba66c-739f-4fee-8367-dada120d78aa")
+	)
+	(text "GPIO Pinout"
+		(exclude_from_sim no)
+		(at 214.63 121.412 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "1a78051d-84b0-4adc-a31b-8da5ce4c91a7")
+	)
+	(text "Bypass Caps"
+		(exclude_from_sim no)
+		(at 194.564 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "35d94ac9-302e-4dc7-8764-8a9a2bcfb507")
+	)
+	(text "Boot/Reset Buttons"
+		(exclude_from_sim no)
+		(at 227.584 72.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "4e19acfa-ea4f-461e-a830-99320357ad53")
+	)
+	(text "5V to 3.3V Buck Converter"
+		(exclude_from_sim no)
+		(at 19.05 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "5e544b3e-d06b-44e2-812e-8f6897399f7b")
 	)
 	(text "USB-C connector"
 		(exclude_from_sim no)
@@ -9907,7 +10037,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RESET"
+		(property "Value" "Boot"
 			(at 234.696 97.79 90)
 			(effects
 				(font
