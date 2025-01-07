@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "34061aa1-1595-4a0a-9524-9b9b15681d54")
 	(paper "A4")
+	(title_block
+		(title "ESP32-C3 LED PCB")
+		(date "2025-01-07")
+		(rev "1")
+		(company "Netz39 e.V.")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
@@ -4109,6 +4115,12 @@
 		(uuid "25b60a6b-1fa8-4898-a816-f5667b60a685")
 	)
 	(junction
+		(at 142.24 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27733781-0474-41a6-8427-32fa7590e013")
+	)
+	(junction
 		(at 138.43 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4275,12 +4287,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf73d6c9-4176-43aa-881c-df09a2149529")
-	)
-	(junction
-		(at 142.24 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d0e98883-f9e1-4eda-af81-6a84161a8875")
 	)
 	(junction
 		(at 213.36 77.47)
@@ -5334,6 +5340,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 54.61) (xy 149.86 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f00437e-f4f7-4521-a189-09f20d543b10")
+	)
+	(wire
+		(pts
 			(xy 233.68 91.44) (xy 243.84 91.44)
 		)
 		(stroke
@@ -5411,16 +5427,6 @@
 			(type default)
 		)
 		(uuid "7bd63cf3-e1f3-423e-8778-758e22ee2797")
-	)
-	(wire
-		(pts
-			(xy 142.24 54.61) (xy 149.86 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d0be04b-3660-47df-b949-63ed44980b82")
 	)
 	(wire
 		(pts
@@ -7880,7 +7886,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "10kΩ"
 			(at 140.462 89.916 90)
 			(effects
 				(font
@@ -8846,6 +8852,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 142.24 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4599a8ec-ac9f-4f56-9adf-15563f35cc68")
+		(property "Reference" "#PWR014"
+			(at 142.24 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 142.24 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 142.24 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21485590-ea83-4fa5-9f1f-e85dac87c523")
+		)
+		(instances
+			(project "KICad_Files"
+				(path "/34061aa1-1595-4a0a-9524-9b9b15681d54"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 49.53 50.8 0)
 		(unit 1)
@@ -9122,72 +9194,6 @@
 			(project ""
 				(path "/34061aa1-1595-4a0a-9524-9b9b15681d54"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 142.24 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5949d343-8b45-403d-b33c-0a650f076ff2")
-		(property "Reference" "#PWR014"
-			(at 142.24 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 142.24 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 142.24 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97e2059d-5924-4c63-af1e-134c6467ee59")
-		)
-		(instances
-			(project "KICad_Files"
-				(path "/34061aa1-1595-4a0a-9524-9b9b15681d54"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -10037,7 +10043,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Boot"
+		(property "Value" "Reset"
 			(at 234.696 97.79 90)
 			(effects
 				(font
@@ -10313,7 +10319,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "10kΩ"
 			(at 140.462 95.25 90)
 			(effects
 				(font
@@ -10852,7 +10858,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RESET"
+		(property "Value" "Boot"
 			(at 263.906 97.79 90)
 			(effects
 				(font
