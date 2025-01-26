@@ -6834,7 +6834,7 @@
 		(uuid "43ade97e-cf51-4fc0-aa36-41c290e66cdc")
 	)
 	(label "GPIO 13"
-		(at 269.24 133.35 180)
+		(at 269.24 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6878,7 +6878,7 @@
 		(uuid "7b0155d1-e43f-4ef2-9309-5a03209e5105")
 	)
 	(label "GPIO 14"
-		(at 269.24 130.81 180)
+		(at 269.24 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9960,7 +9960,8 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 35.56 153.67 90)
+		(at 35.56 153.67 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
