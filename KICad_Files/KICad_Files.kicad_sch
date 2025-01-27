@@ -7485,7 +7485,7 @@
 				)
 			)
 		)
-		(property "Value" "10 kΩ"
+		(property "Value" "15kΩ"
 			(at 48.006 160.02 90)
 			(effects
 				(font
@@ -9075,7 +9075,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "220kΩ"
+		(property "Value" "68kΩ"
 			(at 48.006 176.022 90)
 			(effects
 				(font
