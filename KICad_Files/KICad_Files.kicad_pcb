@@ -1939,7 +1939,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R7"
-			(at 0.0625 -1.425 90)
+			(at 2.794 0 90)
 			(layer "F.SilkS")
 			(uuid "bf8fcc4a-3e67-4afe-9d18-3393dba79fcc")
 			(effects
@@ -2152,7 +2152,7 @@
 		(descr "Molex PicoBlade Connector System, 53047-0310, 3 Pins per row (http://www.molex.com/pdm_docs/sd/530470610_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex PicoBlade side entry")
 		(property "Reference" "J3"
-			(at 1.35 2.05 90)
+			(at 2.5832 -3.0964 90)
 			(layer "F.SilkS")
 			(uuid "ae054cab-84a5-4332-bf07-4f9202499687")
 			(effects
@@ -3800,7 +3800,7 @@
 		(descr "Molex PicoBlade Connector System, 53047-0310, 3 Pins per row (http://www.molex.com/pdm_docs/sd/530470610_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex PicoBlade side entry")
 		(property "Reference" "J1"
-			(at 0.15 2.05 90)
+			(at -0.3608 2.2884 90)
 			(layer "F.SilkS")
 			(uuid "fccb1da2-e194-40ec-aaad-1149d53547e4")
 			(effects
@@ -6565,7 +6565,7 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D2"
-			(at -0.075 -1.9 90)
+			(at -2.6416 -0.0508 180)
 			(layer "F.SilkS")
 			(uuid "3a70c6f5-874e-4dcb-a638-4acc0a739a01")
 			(effects
@@ -7094,7 +7094,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R6"
-			(at -0.075 1.525 90)
+			(at 2.794 -0.0508 90)
 			(layer "F.SilkS")
 			(uuid "75823d9c-c920-4738-9aef-6e8ce89de626")
 			(effects
@@ -11899,8 +11899,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "GPIO4/9"
-		(at 96.580801 93.616401 -45)
+	(gr_text "GPIO1/5"
+		(at 96.580801 93.616401 315)
 		(layer "B.SilkS")
 		(uuid "0cc27af7-48c1-4b8c-a7e3-39ae3e03f288")
 		(effects
@@ -11911,19 +11911,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "GPIO4/9"
-		(at 95.869601 81.170401 90)
-		(layer "B.SilkS")
-		(uuid "10c74dc0-a5cd-46c5-aff0-4a52295dc590")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
-			)
-			(justify left bottom mirror)
-		)
-	)
-	(gr_text "GPIO4/9"
+	(gr_text "GPIO15/22"
 		(at 119.440801 89.247601 45)
 		(layer "B.SilkS")
 		(uuid "11844e05-8048-4f8d-99e1-f5cd36c89888")
@@ -11936,7 +11924,7 @@
 		)
 	)
 	(gr_text "5V"
-		(at 99.984401 104.843201 0)
+		(at 100.136801 104.843201 0)
 		(layer "B.SilkS")
 		(uuid "1afaaab4-c937-4eff-8cde-07172472d59e")
 		(effects
@@ -11959,8 +11947,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "GPIO4/9"
-		(at 96.580801 97.629601 -45)
+	(gr_text "5V"
+		(at 94.904401 96.156401 315)
 		(layer "B.SilkS")
 		(uuid "21c0a120-3410-4a8d-9e44-f38c97f624cb")
 		(effects
@@ -11972,21 +11960,9 @@
 		)
 	)
 	(gr_text "GPIO4/9"
-		(at 96.580801 91.635201 -45)
+		(at 96.580801 91.635201 315)
 		(layer "B.SilkS")
 		(uuid "317d5d0b-e809-4b2c-90cc-aa27f7a4bc4c")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
-			)
-			(justify left bottom mirror)
-		)
-	)
-	(gr_text "GPIO4/9"
-		(at 97.901601 81.170401 90)
-		(layer "B.SilkS")
-		(uuid "36861133-43d8-4f30-b4b5-38faf7d93617")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -12319,8 +12295,8 @@
 			)
 		)
 	)
-	(gr_text "GPIO4/9"
-		(at 99.374801 89.603201 -45)
+	(gr_text "GPIO6/12"
+		(at 99.527201 89.958801 315)
 		(layer "B.SilkS")
 		(uuid "60852d66-862f-4a5b-9c40-86efea38c428")
 		(effects
@@ -12331,7 +12307,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "GPIO4/9"
+	(gr_text "GPIO12/19"
 		(at 114.767201 87.317201 45)
 		(layer "B.SilkS")
 		(uuid "60c7d03f-a66f-43b9-ab00-2a9a33d7e54e")
@@ -12343,8 +12319,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "GPIO10/16"
-		(at 103.286401 93.057601 0)
+	(gr_text "GPIO3/8"
+		(at 102.422801 93.057601 0)
 		(layer "B.SilkS")
 		(uuid "6c2fdab8-3a22-42e8-818e-dd6734696d4e")
 		(effects
@@ -12355,8 +12331,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "GPIO4/9"
-		(at 97.241201 89.603201 -45)
+	(gr_text "GPIO5/10"
+		(at 97.241201 89.603201 315)
 		(layer "B.SilkS")
 		(uuid "86de8ab4-2fdf-4482-8c99-8b6e0dc29f40")
 		(effects
@@ -12367,7 +12343,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "GPIO4/9"
+	(gr_text "3.3V"
 		(at 119.440801 97.274001 45)
 		(layer "B.SilkS")
 		(uuid "871886b8-fd13-40f6-9b9c-68a6c6c9d626")
@@ -12379,8 +12355,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "GPIO4/9"
-		(at 96.580801 101.642801 -45)
+	(gr_text "GND"
+		(at 95.361601 100.677601 315)
 		(layer "B.SilkS")
 		(uuid "8c120acf-466c-4eab-89db-de09fd2bcc24")
 		(effects
@@ -12391,7 +12367,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "GPIO4/9"
+	(gr_text "GPIO14/21"
 		(at 118.729601 87.266401 45)
 		(layer "B.SilkS")
 		(uuid "a4f9549f-b93c-4589-a5d7-e3173d2b6601")
@@ -12403,7 +12379,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "GPIO4/9"
+	(gr_text "5V"
 		(at 119.440801 95.242001 45)
 		(layer "B.SilkS")
 		(uuid "a57761bf-6f61-4031-9015-694a82fae769")
@@ -12415,7 +12391,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "GPIO4/9"
+	(gr_text "GPIO17/24"
 		(at 119.440801 93.260801 45)
 		(layer "B.SilkS")
 		(uuid "a6739232-3254-4f41-9233-495f987c7c04")
@@ -12427,7 +12403,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "GPIO10/16"
+	(gr_text "GPIO9/15"
 		(at 103.337201 99.560001 0)
 		(layer "B.SilkS")
 		(uuid "b2832cab-2c53-4599-8e63-45cedae23fa4")
@@ -12439,7 +12415,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "GPIO4/9"
+	(gr_text "GND"
 		(at 119.440801 99.255201 45)
 		(layer "B.SilkS")
 		(uuid "bb0f2bc9-d4fa-4a91-99f3-cdfc0a2f07b3")
@@ -12451,8 +12427,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "GPIO4/9"
-		(at 101.305201 89.552401 -45)
+	(gr_text "GPIO7/13\n"
+		(at 101.660801 90.009601 315)
 		(layer "B.SilkS")
 		(uuid "c199ae58-682a-4eb8-abcd-38a874bef015")
 		(effects
@@ -12463,7 +12439,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "GPIO4/9"
+	(gr_text "GPIO13/20"
 		(at 116.748401 87.317201 45)
 		(layer "B.SilkS")
 		(uuid "cc3a27ad-1876-4f38-9c08-dfe2d252deef")
@@ -12488,8 +12464,8 @@
 			(justify bottom mirror)
 		)
 	)
-	(gr_text "GPIO4/9"
-		(at 96.580801 95.648401 -45)
+	(gr_text "GPIO0/4"
+		(at 96.580801 95.648401 315)
 		(layer "B.SilkS")
 		(uuid "d7051821-c8d3-41e5-9ce1-ef8586cf135d")
 		(effects
@@ -12500,22 +12476,10 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "GPIO4/9"
-		(at 96.580801 99.661601 -45)
+	(gr_text "3.3V"
+		(at 95.412401 98.848801 315)
 		(layer "B.SilkS")
 		(uuid "deeb34ec-7bc5-4230-8604-8eecbeba358e")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
-			)
-			(justify left bottom mirror)
-		)
-	)
-	(gr_text "GPIO4/9"
-		(at 93.888401 81.170401 90)
-		(layer "B.SilkS")
-		(uuid "df74dfc5-9b57-4c57-9651-39e2f76f2b75")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -12537,7 +12501,7 @@
 			(justify bottom mirror)
 		)
 	)
-	(gr_text "GPIO4/9"
+	(gr_text "GPIO16/23"
 		(at 119.440801 91.228801 45)
 		(layer "B.SilkS")
 		(uuid "e9c75979-633b-426c-8204-6591e0c1daf5")
@@ -12550,7 +12514,7 @@
 		)
 	)
 	(gr_text "5V"
-		(at 100.035201 91.838401 0)
+		(at 100.136801 91.838401 0)
 		(layer "B.SilkS")
 		(uuid "fc1bff11-70a6-4252-bf22-ce099aaf42d0")
 		(effects
