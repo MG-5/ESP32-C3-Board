@@ -4410,7 +4410,7 @@
 			(size 1.425 2.2)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.175439)
-			(net 17 "Net-(U1-SW)")
+			(net 5 "+3.3V")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "8b9d23bd-02ba-4e8a-a99d-1ac00cd9b327")
@@ -4420,7 +4420,7 @@
 			(size 1.425 2.2)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.175439)
-			(net 5 "+3.3V")
+			(net 17 "Net-(U1-SW)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "191e7e1e-0b08-4cb5-89d9-dde8544a923a")
@@ -5721,7 +5721,7 @@
 				)
 			)
 		)
-		(property "Value" "10 kΩ"
+		(property "Value" "68kΩ"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "01a33412-6bf7-430e-a314-c7e69f316bd7")
@@ -6351,7 +6351,7 @@
 				)
 			)
 		)
-		(property "Value" "220kΩ"
+		(property "Value" "15kΩ"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "b6355741-d6b7-4358-ba16-7d18a09ecbb9")
