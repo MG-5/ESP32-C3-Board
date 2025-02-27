@@ -3604,6 +3604,7 @@
 		(property "Reference" "J7"
 			(at 0.2 0.6 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a59a2ded-5831-4951-a89a-a12570311f05")
 			(effects
 				(font
@@ -3612,7 +3613,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0_14P"
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
 			(at 0 6.24 0)
 			(layer "F.Fab")
 			(uuid "88f5b0ef-0be8-43cd-bd14-1c64b7c1d514")
@@ -3627,7 +3628,6 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "40d626f7-b9df-4995-889b-7b30996388b7")
 			(effects
 				(font
@@ -15964,14 +15964,6 @@
 		(uuid "0169b4e9-8aa9-4ae6-b4ac-681ea5638da5")
 	)
 	(segment
-		(start 100.238599 99.050001)
-		(end 100.60116 99.050001)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "01a4828c-2fdc-4b37-8a8b-d02d703bd7e2")
-	)
-	(segment
 		(start 104.45855 96.023374)
 		(end 104.45855 96.031452)
 		(width 0.2)
@@ -16266,14 +16258,6 @@
 		(layer "F.Cu")
 		(net 3)
 		(uuid "a15fa1b0-53c7-45bc-81b0-64854715d2a0")
-	)
-	(segment
-		(start 94.456669 101.140001)
-		(end 94.459474 101.140001)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "a52751a9-f81d-4a90-bc7a-8b2755df2745")
 	)
 	(segment
 		(start 94.425001 96.041377)
@@ -21387,7 +21371,7 @@
 		(net 24)
 		(net_name "/LED3")
 		(layer "F.Cu")
-		(uuid "176b1bef-fee4-455e-a574-1745232efb33")
+		(uuid "ebec0f5c-750f-4e74-acf6-719c54706aa3")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
 		(priority 30000)
@@ -22895,7 +22879,7 @@
 		(net 24)
 		(net_name "/LED3")
 		(layer "B.Cu")
-		(uuid "94fbd1e1-5569-40ef-8e1c-74dcecf82935")
+		(uuid "0e85806b-ba96-4504-a55b-a4e26d423c08")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
 		(priority 30000)
